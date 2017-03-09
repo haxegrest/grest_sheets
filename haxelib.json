@@ -1,0 +1,19 @@
+{
+  "name": "grest_sheets",
+  "license": "MIT",
+  "tags": [
+    "google",
+    "rest",
+    "api",
+    "sheets"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "kevinresol"
+  ],
+  "releasenote": "initial release",
+  "version": "0.0.0",
+  "dependencies": {
+    "grest_core": ""
+  }
+}
