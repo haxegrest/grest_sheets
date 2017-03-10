@@ -5,5 +5,5 @@ typedef Border = {
 	@:optional
 	var width : Int;
 	@:optional
-	var style : Border_style;
+	var style : grest.sheets.v4.types.Border_style;
 }

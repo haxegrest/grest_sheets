@@ -7,9 +7,9 @@ typedef BasicChartSpec = {
 	@:optional
 	var axis : Array<BasicChartAxis>;
 	@:optional
-	var chartType : BasicChartSpec_chartType;
+	var chartType : grest.sheets.v4.types.BasicChartSpec_chartType;
 	@:optional
 	var series : Array<BasicChartSeries>;
 	@:optional
-	var legendPosition : BasicChartSpec_legendPosition;
+	var legendPosition : grest.sheets.v4.types.BasicChartSpec_legendPosition;
 }

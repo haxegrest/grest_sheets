@@ -3,7 +3,7 @@ typedef BasicChartSeries = {
 	@:optional
 	var series : ChartData;
 	@:optional
-	var type : BasicChartSeries_type;
+	var type : grest.sheets.v4.types.BasicChartSeries_type;
 	@:optional
-	var targetAxis : BasicChartSeries_targetAxis;
+	var targetAxis : grest.sheets.v4.types.BasicChartSeries_targetAxis;
 }

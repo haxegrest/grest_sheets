@@ -15,5 +15,5 @@ typedef SheetProperties = {
 	@:optional
 	var gridProperties : GridProperties;
 	@:optional
-	var sheetType : SheetProperties_sheetType;
+	var sheetType : grest.sheets.v4.types.SheetProperties_sheetType;
 }

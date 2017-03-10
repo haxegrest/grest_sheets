@@ -3,7 +3,7 @@ typedef InterpolationPoint = {
 	@:optional
 	var color : Color;
 	@:optional
-	var type : InterpolationPoint_type;
+	var type : grest.sheets.v4.types.InterpolationPoint_type;
 	@:optional
 	var value : String;
 }

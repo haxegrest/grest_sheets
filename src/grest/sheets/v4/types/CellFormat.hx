@@ -3,9 +3,9 @@ typedef CellFormat = {
 	@:optional
 	var numberFormat : NumberFormat;
 	@:optional
-	var hyperlinkDisplayType : CellFormat_hyperlinkDisplayType;
+	var hyperlinkDisplayType : grest.sheets.v4.types.CellFormat_hyperlinkDisplayType;
 	@:optional
-	var horizontalAlignment : CellFormat_horizontalAlignment;
+	var horizontalAlignment : grest.sheets.v4.types.CellFormat_horizontalAlignment;
 	@:optional
 	var textFormat : TextFormat;
 	@:optional
@@ -13,13 +13,13 @@ typedef CellFormat = {
 	@:optional
 	var padding : Padding;
 	@:optional
-	var verticalAlignment : CellFormat_verticalAlignment;
+	var verticalAlignment : grest.sheets.v4.types.CellFormat_verticalAlignment;
 	@:optional
 	var borders : Borders;
 	@:optional
-	var textDirection : CellFormat_textDirection;
+	var textDirection : grest.sheets.v4.types.CellFormat_textDirection;
 	@:optional
-	var wrapStrategy : CellFormat_wrapStrategy;
+	var wrapStrategy : grest.sheets.v4.types.CellFormat_wrapStrategy;
 	@:optional
 	var textRotation : TextRotation;
 }

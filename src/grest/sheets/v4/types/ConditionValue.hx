@@ -1,7 +1,7 @@
 package grest.sheets.v4.types;
 typedef ConditionValue = {
 	@:optional
-	var relativeDate : ConditionValue_relativeDate;
+	var relativeDate : grest.sheets.v4.types.ConditionValue_relativeDate;
 	@:optional
 	var userEnteredValue : String;
 }

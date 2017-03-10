@@ -1,7 +1,7 @@
 package grest.sheets.v4.types;
 typedef PasteDataRequest = {
 	@:optional
-	var type : PasteDataRequest_type;
+	var type : grest.sheets.v4.types.PasteDataRequest_type;
 	@:optional
 	var html : Bool;
 	@:optional

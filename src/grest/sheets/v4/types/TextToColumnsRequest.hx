@@ -5,5 +5,5 @@ typedef TextToColumnsRequest = {
 	@:optional
 	var source : GridRange;
 	@:optional
-	var delimiterType : TextToColumnsRequest_delimiterType;
+	var delimiterType : grest.sheets.v4.types.TextToColumnsRequest_delimiterType;
 }

@@ -3,5 +3,5 @@ typedef DeleteRangeRequest = {
 	@:optional
 	var range : GridRange;
 	@:optional
-	var shiftDimension : DeleteRangeRequest_shiftDimension;
+	var shiftDimension : grest.sheets.v4.types.DeleteRangeRequest_shiftDimension;
 }

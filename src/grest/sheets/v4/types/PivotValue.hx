@@ -3,7 +3,7 @@ typedef PivotValue = {
 	@:optional
 	var formula : String;
 	@:optional
-	var summarizeFunction : PivotValue_summarizeFunction;
+	var summarizeFunction : grest.sheets.v4.types.PivotValue_summarizeFunction;
 	@:optional
 	var sourceColumnOffset : Int;
 	@:optional

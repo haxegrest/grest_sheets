@@ -5,7 +5,7 @@ typedef PivotTable = {
 	@:optional
 	var rows : Array<PivotGroup>;
 	@:optional
-	var valueLayout : PivotTable_valueLayout;
+	var valueLayout : grest.sheets.v4.types.PivotTable_valueLayout;
 	@:optional
 	var source : GridRange;
 	@:optional
