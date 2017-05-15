@@ -1,0 +1,6 @@
+# @install: lix --silent download https://github.com/haxegrest/grest_core/archive/02e452ad87d85cfff0d1171283afa27ff1f80888.tar.gz into grest_core/0.0.0/github/02e452ad87d85cfff0d1171283afa27ff1f80888
+-D grest_core=0.0.0
+-cp ../grest_core/src
+
+-lib tink_web
+-lib jsonwebtoken

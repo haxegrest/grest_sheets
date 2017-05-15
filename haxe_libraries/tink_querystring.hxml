@@ -1,0 +1,7 @@
+# @install: lix --silent download https://github.com/haxetink/tink_querystring/archive/b604cac86d9194f17d0695c32717122edbb1941f.tar.gz into tink_querystring/0.4.0/github/b604cac86d9194f17d0695c32717122edbb1941f
+-D tink_querystring=0.4.0
+# -cp ${HAXESHIM_LIBCACHE}/tink_querystring/0.4.0/github/b604cac86d9194f17d0695c32717122edbb1941f/src
+-cp ../tink_querystring/src
+
+-lib tink_url
+-lib tink_typecrawler

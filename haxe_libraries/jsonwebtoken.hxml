@@ -1,0 +1,5 @@
+# @install: lix --silent download haxelib:jsonwebtoken#2.0.1 into jsonwebtoken/2.0.1/haxelib
+-D jsonwebtoken=2.0.1
+-cp ${HAXESHIM_LIBCACHE}/jsonwebtoken/2.0.1/haxelib/src
+
+-lib tink_core

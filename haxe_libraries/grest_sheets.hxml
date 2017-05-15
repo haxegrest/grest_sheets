@@ -1,0 +1,5 @@
+# @install: lix --silent download https://github.com/haxegrest/grest_sheets/archive/51602aa78bebec12d0126c04006d66c15a8b89a4.tar.gz into grest_sheets/0.0.0/github/51602aa78bebec12d0126c04006d66c15a8b89a4
+-D grest_sheets=0.0.0
+-cp src
+
+-lib grest_core
