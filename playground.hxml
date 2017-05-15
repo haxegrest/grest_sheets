@@ -1,0 +1,6 @@
+-cp tests
+-main Playground
+-dce full
+
+-js bin/playground/index.js
+-lib grest_sheets

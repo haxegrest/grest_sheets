@@ -3,4 +3,5 @@
 -cp ../grest_core/src
 
 -lib tink_web
+-lib tink_http_fetch
 -lib jsonwebtoken
