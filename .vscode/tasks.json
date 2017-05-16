@@ -1,6 +1,6 @@
 {
     "version": "2.0.0",
-    "command": "haxelib",
-    "args": ["run","travix","node"],
+    "command": "haxe",
+    "args": ["playground.hxml"],
     "problemMatcher": "$haxe"
 }

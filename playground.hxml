@@ -3,4 +3,5 @@
 -dce full
 
 -js bin/playground/index.js
+-lib hxnodejs
 -lib grest_sheets
