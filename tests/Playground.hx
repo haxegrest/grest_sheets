@@ -27,7 +27,7 @@ class Playground {
 		var url:Url = js.Browser.window.location.href;
 		var clientId = '1081889669603-n2meig5n301n2l2b15r9420r2qlcjdup.apps.googleusercontent.com';
 		if(url.hash == null) {
-			js.Browser.window.location.href = ClientSideAuthenticator.start(
+			JsAuthenticator.start(
 				clientId,
 				'http://localhost:2000',
 				scopes
@@ -35,7 +35,7 @@ class Playground {
 			
 		} else {
 			var query = (url.hash:tink.url.Query).toMap();
-			run(new ClientSideAuthenticator(clientId, query['access_token']), new SecureJsClient());
+			run(new JsAuthenticator(clientId, query['access_token']), new SecureJsClient());
 		}
 	}
 	
